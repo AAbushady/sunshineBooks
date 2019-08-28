@@ -25,7 +25,7 @@
 
 // Pseudocode
 /*
-    -Variables-
+    -Variables and Constants-
     Declare Numeric hour1
     Declare Numeric hour2
     Declare Numeric hour3
@@ -42,4 +42,17 @@
     Display `The average amount of customers is ${avgCustomers}`
 */
 
-// Variables
+// Variables and Constants
+var hour1 = 75;
+var hour2 = 96;
+var hour3 = 22;
+var hour4 = 108;
+const HOURS = 4;
+
+// Perform Calculations
+var totalCustomers = hour1 + hour2 + hour3 + hour4;
+var avgCustomers = totalCustomers / HOURS;
+
+// Display Results
+console.log(`The total number of customers is ${totalCustomers}`);
+console.log(`The average amount of customers is ${Math.ceil(avgCustomers)}`); // Rounded up because you can't have a quarter of a person.
