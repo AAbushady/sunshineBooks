@@ -25,6 +25,8 @@
 
 // Pseudocode
 /*
+    Welcome the User
+
     -Variables and Constants-
     Declare Numeric hour1
     Declare Numeric hour2
@@ -40,7 +42,12 @@
     
     Divide totalCustomers by hours and assign to avgCustomers
     Display `The average amount of customers is ${avgCustomers}`
+    
+    Thank the user
 */
+
+// Welcome the User
+console.log("Welcome to the customer counter!");
 
 // Variables and Constants
 var hour1 = 75;
@@ -56,3 +63,6 @@ var avgCustomers = totalCustomers / HOURS;
 // Display Results
 console.log(`The total number of customers is ${totalCustomers}`);
 console.log(`The average amount of customers is ${Math.ceil(avgCustomers)}`); // Rounded up because you can't have a quarter of a person.
+
+// Thank the User
+console.log("Thanks for using the customer counter!");
