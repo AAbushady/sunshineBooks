@@ -25,7 +25,7 @@
 
 // Pseudocode
 /*
-    Welcome the User
+    -Welcome the User-
 
     -Variables and Constants-
     Declare Numeric hour1
@@ -43,7 +43,7 @@
     Divide totalCustomers by hours and assign to avgCustomers
     Display `The average amount of customers is ${avgCustomers}`
     
-    Thank the user
+    -Thank the user-
 */
 
 // Welcome the User
