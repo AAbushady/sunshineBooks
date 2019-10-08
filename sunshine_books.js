@@ -1,5 +1,5 @@
 (function () {
-    "using strict";
+    "use strict";
 
     // Welcome the User
     console.log("Welcome to the customer counter!\n");
